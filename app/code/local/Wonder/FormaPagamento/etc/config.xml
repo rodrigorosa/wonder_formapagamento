@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Wonder_FormaPagamento>
+      <version>0.0.1</version>
+    </Wonder_FormaPagamento>
+  </modules>
+
+  <global>
+    <helpers>
+      <formapagamento>
+        <class>Wonder_FormaPagamento_Helper</class>
+      </formapagamento>
+    </helpers>
+    <blocks>
+      <formapagamento>
+        <class>Wonder_FormaPagamento_Block</class>
+      </formapagamento>
+    </blocks>
+    <models>
+      <formapagamento>
+        <class>Wonder_FormaPagamento_Model</class>
+      </formapagamento>
+    </models>
+  </global>
+
+  <default>
+    <payment>
+      <formapagamento1>
+        <model>formapagamento/method_formapagamento1</model>
+        <active>1</active>
+        <order_status>pending</order_status>
+        <title>Condição de Pagamento 1</title>
+        <allowspecific>0</allowspecific>
+        <group>offline</group>
+      </formapagamento1>
+      <formapagamento2>
+        <model>formapagamento/method_formapagamento2</model>
+        <active>1</active>
+         <order_status>pending</order_status>
+        <title>Condição de Pagamento 2</title>
+        <allowspecific>0</allowspecific>
+        <group>offline</group>
+      </formapagamento2>
+    </payment>
+  </default>
+</config>
