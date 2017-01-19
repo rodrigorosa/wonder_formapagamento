@@ -42,6 +42,30 @@
         <allowspecific>0</allowspecific>
         <group>offline</group>
       </formapagamento2>
+      <formapagamento3>
+        <model>formapagamento/method_formapagamento3</model>
+        <active>1</active>
+         <order_status>pending</order_status>
+        <title>Condição de Pagamento 3</title>
+        <allowspecific>0</allowspecific>
+        <group>offline</group>
+      </formapagamento3>
+      <formapagamento4>
+        <model>formapagamento/method_formapagamento4</model>
+        <active>1</active>
+         <order_status>pending</order_status>
+        <title>Condição de Pagamento 4</title>
+        <allowspecific>0</allowspecific>
+        <group>offline</group>
+      </formapagamento4>
+      <formapagamento5>
+        <model>formapagamento/method_formapagamento5</model>
+        <active>1</active>
+         <order_status>pending</order_status>
+        <title>Condição de Pagamento 5</title>
+        <allowspecific>0</allowspecific>
+        <group>offline</group>
+      </formapagamento5>
     </payment>
   </default>
 </config>
